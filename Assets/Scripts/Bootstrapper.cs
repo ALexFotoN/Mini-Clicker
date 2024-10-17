@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bootstrapper : MonoBehaviour
 {
-    public Score score;
-    public Game game;
-    public InputHandler inputHandler;
+    private Score score;
+    private Game game;
+    [SerializeField] private InputHandler inputHandler;
 
     void Start()
     {
